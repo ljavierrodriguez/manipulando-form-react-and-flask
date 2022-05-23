@@ -3,8 +3,6 @@ from models import User
 import cloudinary
 import cloudinary.uploader
 
-from libs.functions import send_email
-
 api = Blueprint('api', __name__)
 
 @api.route('/register', methods=['POST'])
