@@ -28,8 +28,6 @@ def register():
     print(request.files)
     '''
 
-    send_email("Registro Exitoso", [user.email])
-
     return jsonify(user.serialize())
 
 
